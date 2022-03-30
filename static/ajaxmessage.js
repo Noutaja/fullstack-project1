@@ -10,6 +10,7 @@ function sendForm() {
 	const username = document.querySelector("#username-input").value;
 	const country = document.querySelector("#country-input").value;
 	const message = document.querySelector("#message-input").value;
+	if (username.length < 1 || country < 1 || message < 1) return;
 	//console.log("%s, %s, %s",username,country,message);
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function () {
