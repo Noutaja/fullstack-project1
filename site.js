@@ -4,7 +4,7 @@ var express = require("express");
 var site = express();
 var bodyParser = require("body-parser");
 var fs = require("fs");
-var PORT = process.env.port || 8081;
+var PORT = process.env.PORT || 8081;
 
 site.use(express.static("./static"));
 site.use(bodyParser.urlencoded({ extended: true }));
