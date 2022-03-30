@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {},
 	"scripts": {
-		"start": "site.js",
+		"start": "node site.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
