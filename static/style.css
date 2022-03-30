@@ -1,0 +1,13 @@
+body {
+	color: purple !important;
+}
+table{
+	color: purple !important;
+}
+.nav {
+	background: purple;
+	color:white;
+}
+.nav-link {
+	color:white;
+}

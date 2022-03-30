@@ -39,7 +39,6 @@ site.post("/newentry", function (request, response) {
 		gbook.push(newEntry);
 		var data = JSON.stringify(gbook);
 		fs.writeFileSync("JSON Guestbook data.json",data);
-		console.log(gbook);
 	} catch (e) {
 		console.log(e);
 	}
